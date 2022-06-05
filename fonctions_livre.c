@@ -50,7 +50,7 @@ int recherche_livre(){
         printf("Erreur lors de l'ouverture d'un fichier");
         exit(1);
     }
-    char motcle[7];
+    char motcle[20];
     printf("\n Saisissez un mot cle pour rechercher un livre  \n");
     scanf( "%s",motcle);
     char ligneLivre[10000];
